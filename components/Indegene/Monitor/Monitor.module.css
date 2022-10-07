@@ -1,0 +1,137 @@
+.Monitor{
+    padding: 10rem 15rem;
+    gap: 3rem;
+}
+
+.section_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1 .monitor_heading{
+    font-size: 4rem;
+    font-weight: 650;
+}
+
+
+
+.section_2{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 30rem;
+    border: 0.1rem solid #034EA2;
+    padding: 2.5rem;
+    
+}
+
+.box .heading{
+    font-size: 3.5rem;
+    font-weight: 650;
+    line-height: 1.2;
+    color: #034EA2;
+    margin-bottom: 1rem;
+}
+
+.box .content{
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+@media (max-width: 1024px){
+    .Monitor{
+        padding: 8rem 12rem;
+        gap: 2.5rem;
+    }
+    
+    .section_1 .monitor_heading{
+        font-size: 3.2rem;
+        font-weight: 550;
+    }
+
+    .section_2{
+        gap: 1.8rem;
+    }
+    
+    .box{
+        height: 27rem;
+        padding: 2rem;
+        
+    }
+    
+    .box .heading{
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    
+    .box .content{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px){
+    .Monitor{
+        padding: 7rem 10rem;
+        gap: 1rem;
+    }
+    
+    .section_1 .monitor_heading{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .section_2{
+        /* gap: 1rem; */
+        
+    }
+    
+    .box{
+        height: 26rem;
+        padding: 2rem;
+        width: 100% !important;
+    }
+    
+    .box .heading{
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .box .content{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 426px){
+    .Monitor{
+        padding: 5rem;
+        gap: 2rem;
+    }
+
+    .section_1 .monitor_heading{
+        font-size: 2.2rem;
+    }
+    
+    .section_2{
+        gap: 2rem;
+    }
+    
+    .box{
+        height: fit-content;
+        padding: 2rem;
+    }
+    
+    .box .heading{
+        font-size: 2.2rem;
+        line-height: 1.5;
+    }
+    
+    .box .content{
+        font-size: 1.6rem;
+        font-weight: 480;
+    }
+}

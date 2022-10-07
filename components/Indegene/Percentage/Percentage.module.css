@@ -1,0 +1,109 @@
+.Percentage{
+    padding: 10rem 15rem;
+    border-top: 0.1rem solid #ccc;
+}
+
+.section{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.box{
+    flex: 1;
+    height: 25rem;
+    background-color: #E6E7E8;
+    border-left: 1rem solid #ED0677;
+    padding: 2rem;
+    
+}
+
+.box .heading{
+    font-size: 6rem;
+    font-weight: 750;
+    line-height: 1.5;
+    color: #034EA2;
+}
+
+.box .content{
+    font-size: 2.3rem;
+    font-weight: 550;
+}
+
+@media (max-width: 1024px){
+    .Percentage{
+        padding: 8rem 12rem;
+    }
+    
+    .section{
+        gap: 1.8rem;
+    }
+    
+    .box{
+        height: 22rem;
+        padding: 2rem;
+        
+    }
+    
+    .box .heading{
+        font-size: 4.5rem;
+        line-height: 1.3;
+    }
+    
+    .box .content{
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .Percentage{
+        padding: 7rem 10rem;
+    }
+    
+    .section{
+        gap: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .box{
+        height: fit-content;
+        padding: 3rem;
+        width: 100% !important;
+    }
+    
+    .box .heading{
+        font-size: 4rem;
+        line-height: 1.3;
+    }
+    
+    .box .content{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 426px){
+    .Percentage{
+        padding: 5rem;
+    }
+    
+    .section{
+        gap: 1.5rem;
+    }
+    
+    .box{
+        padding: 2rem;
+    }
+    
+    .box .heading{
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    
+    .box .content{
+        font-size: 1.6rem;
+    }
+}
